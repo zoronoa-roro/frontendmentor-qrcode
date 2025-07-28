@@ -1,0 +1,50 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{box-sizing: border-box;}
+
+    body{
+        font-family: Outfit;
+        background-color: hsl(212, 45%, 89%);
+    
+    }
+
+    .card{
+        background-color: hsl(0, 0%, 100%);
+        width:275px;
+        margin:auto;
+        text-align: center;
+        border-radius: 5%;
+        
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center; 
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);      
+    }
+
+    .words{
+        margin:5px 15px 20px;
+    }
+
+    .card h1{
+        font-weight: 700;
+        font-size:21px;
+        color:hsl(218, 44%, 22%);  
+    }
+
+    .card p{
+        font-weight: 400;
+        font-size:15px;
+        color:hsl(216, 15%, 48%);
+    }
+    
+    .card img{
+        max-width:calc(100% - 26px);
+        margin-top: 13px;
+        border-radius: 5%;   
+    }
+    
